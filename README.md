@@ -8,7 +8,7 @@ An eye-catching glowing button effect made using pure **HTML** and **CSS**. This
 
 ## 📽️ Demo Preview
 
-!(https://github.com/user-attachments/assets/e49997e7-23c9-448b-96ab-ef8081d40804)
+(https://github.com/user-attachments/assets/e49997e7-23c9-448b-96ab-ef8081d40804)
 
 ---
 
