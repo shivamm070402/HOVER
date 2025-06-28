@@ -1,51 +1,49 @@
-# ✨ CSS Button Glow Effect
+# ✨ CSS Glowing Button Effect
 
-A stunning glowing button effect created with pure HTML and CSS. Hovering over the button triggers a smooth, colorful animated glow around its edges — no JavaScript needed!
+An eye-catching glowing button effect made using pure **HTML** and **CSS**. This project demonstrates how to create a visually stunning hover animation using gradients and pseudo-elements — without any JavaScript.
 
-🔗 **[Live Demo](https://hoower.netlify.app)**  
-🎥 **[Watch Video Demo (.mp4)](https://ezgif.com/video-to-gif/ezgif-71cb2050ff398.mp4)**
-
----
-
-## 🎯 Features
-
-- 🟢 Smooth animated gradient glow effect
-- 🌈 Vibrant color transitions using CSS `linear-gradient`
-- 💻 Pure HTML and CSS (no JavaScript)
-- 🎯 Hover interaction with fade-in effect
-- 🔁 Infinite animation loop
-- 📱 Fully responsive and centered on screen
+🔗 **Live Demo:** [hoower.netlify.app](https://hoower.netlify.app)
 
 ---
 
-## 🧩 Tech Stack
+## 📽️ Demo Preview
+
+![Glowing Button Demo](https://github.com/user-attachments/assets/e49997e7-23c9-448b-96ab-ef8081d40804)
+
+---
+
+## 🚀 Features
+
+- 🌈 Glowing border animation with vibrant color transitions
+- 💡 Smooth fade-in effect on hover
+- 🧩 Created using `::before` and `::after` pseudo-elements
+- 🖥️ Responsive and centered layout
+- ❌ No JavaScript used – HTML + CSS only
+
+---
+
+## 🛠️ Built With
 
 - **HTML5**
 - **CSS3**
 
 ---
 
-## 📸 Preview (GIF or Video Link)
+## 🧠 How It Works
 
-> ⚡ Click the image to view the full demo video.
-
-[![Watch the demo video](https://user-images.githubusercontent.com/0000000/placeholder.jpg)](https://ezgif.com/video-to-gif/ezgif-71cb2050ff398.mp4)
-
-> *(Note: Replace the placeholder image above with an actual screenshot or uploaded image if hosted on GitHub.)*
+- `::before` creates the animated glowing gradient border.
+- `::after` creates the solid background behind the button.
+- The button glow effect activates on hover with smooth transitions and infinite looping animation using `@keyframes glowing`.
 
 ---
 
-## 🛠️ How It Works
-
-- `::before` pseudo-element adds a blurred multicolor gradient around the button using `filter: blur()` and `background-size: 600%`.
-- The `glowing` keyframe animation shifts the background gradient infinitely to simulate a moving light glow.
-- The glow is hidden by default and revealed on `:hover` using smooth transitions.
 
 ---
 
-## 🗂️ Project Structure
+## ⚙️ Getting Started Locally
 
-```plaintext
-.
-├── index.html     # Main HTML file
-└── (No external files; all CSS is embedded within the HTML)
+To run the project locally:
+
+1. Clone or download this repo:
+   ```bash
+   git clone https://github.com/your-username/css-glow-button.git
